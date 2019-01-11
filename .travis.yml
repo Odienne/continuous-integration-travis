@@ -16,4 +16,4 @@ jobs:
     - stage: build
       script: script/build
     - stage: testlinks
-      script: bundle exec jekyll build
+      script: script/testlinks
